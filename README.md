@@ -1,14 +1,14 @@
 wechatDemo
 ==========
 
-A python demo for wechat platform, based on bottle web framework and BAE service.
+A python demo for wechat platform, based on bottle web framework and supported by BAE service.  
 
-app.conf:
-    handle url request
+###app.conf:  
+<p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;set up routing</p>
     
-bottle.py:
-    python web framework
+###bottle.py:  
+<p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;python web framework</p>
     
-index.py:
-    verify validity and parse the message from weixin, then send text message to user through bae
-    you can visit http://mp.weixin.qq.com/wiki/index.php?title=%E9%A6%96%E9%A1%B5 for more wechat API
+###index.py:  
+<p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;verify validity and parse the message from weixin, then send text message to user through bae.
+	You can visit <a href="http://mp.weixin.qq.com/wiki/index.php?title=%E9%A6%96%E9%A1%B5">wechat API</a> for different format msgs. </p>
